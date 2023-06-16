@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { IfComponent } from './if/if.component';
 import { SwitchComponent } from './switch/switch.component';
 import { AtmComponent } from './atm/atm.component';
+import { ForComponent } from './for/for.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IfComponent,
     SwitchComponent,
-    AtmComponent
+    AtmComponent,
+    ForComponent
   ],
   imports: [
     BrowserModule
